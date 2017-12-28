@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -e
 
 #
 # This script initializes the build environment project "Pirates" on Linux,

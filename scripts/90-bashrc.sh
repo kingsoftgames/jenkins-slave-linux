@@ -10,4 +10,4 @@ fi
 rsync -av \
     --no-perms --chmod=ugo=rwX \
     --delete \
-    ./.bashrc.d $HOME/.bashrc.d
+    ./.bashrc.d $HOME

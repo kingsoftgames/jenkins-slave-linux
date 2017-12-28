@@ -16,8 +16,8 @@ fi
 mkdir -p $ANDROID_ROOT
 cd $ANDROID_ROOT
 
-wget $SDK_DOWNLOAD_URL
-wget $NDK_DOWNLOAD_URL
+wget -q $SDK_DOWNLOAD_URL
+wget -q $NDK_DOWNLOAD_URL
 
 tar zxf  $(basename $SDK_DOWNLOAD_URL)
 unzip -q $(basename $NDK_DOWNLOAD_URL)

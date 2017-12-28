@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -e
 
 sudo apt update
 
@@ -52,8 +52,6 @@ DEPS+="
 for DEP in $DEPS; do
     if ! dpkg -s $DEP > /dev/null 2>&1; then
         echo "Attempting installation of missing package: $DEP"
-        set -x
-            sudo apt install -y $DEP
-        set +x
+        sudo apt install -y $DEP
     fi
 done

@@ -12,5 +12,5 @@ fi
 mkdir -p $XGSDK_ROOT
 cd $XGSDK_ROOT
 
-wget $XGSDK_DOWNLOAD_URL
+wget -q $XGSDK_DOWNLOAD_URL
 unzip -q $(basename $XGSDK_DOWNLOAD_URL)

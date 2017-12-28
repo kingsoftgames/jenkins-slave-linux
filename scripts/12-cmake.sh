@@ -16,6 +16,6 @@ fi
 mkdir -p $CMAKE_ROOT
 cd $CMAKE_ROOT
 
-wget $CMAKE_DOWNLOAD_URL
+wget -q $CMAKE_DOWNLOAD_URL
 tar zxf $CMAKE_TAR
 ln -sfn $CMAKE_DIR current
