@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sudo apt update
+
 # Dependencies by UE4 for building on linux
 # See: https://intranet.rog2.org/docs/unreal-engine/build/build-game-linux
 DEPS=" \
