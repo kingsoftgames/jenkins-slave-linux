@@ -1,6 +1,6 @@
 #!/bin/bash -e
 
-sudo apt update
+sudo apt-get update
 
 # Dependencies by UE4 for building on linux
 # See: https://intranet.rog2.org/docs/unreal-engine/build/build-game-linux
@@ -52,6 +52,6 @@ DEPS+="
 for DEP in $DEPS; do
     if ! dpkg -s $DEP > /dev/null 2>&1; then
         echo "Attempting installation of missing package: $DEP"
-        sudo apt install -y $DEP
+        sudo apt-get install -y $DEP
     fi
 done
