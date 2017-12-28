@@ -24,3 +24,7 @@ unzip -q $(basename $NDK_DOWNLOAD_URL)
 
 ln -sfn $SDK_FOLDER sdk
 ln -sfn $NDK_FOLDER ndk
+
+# Cleanup (those .zip and .tar.gz are so huge!)
+rm -vf $(basename $SDK_DOWNLOAD_URL)
+rm -vf $(basename $NDK_DOWNLOAD_URL)
