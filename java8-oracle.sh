@@ -1,5 +1,8 @@
 #!/bin/bash -ex
 
+# For "add-apt-repository" utility
+sudo apt-get install software-properties-common
+
 # Add the PPA repository
 sudo add-apt-repository -y ppa:webupd8team/java
 sudo apt-get update
