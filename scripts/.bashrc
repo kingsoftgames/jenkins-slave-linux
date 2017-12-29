@@ -1,5 +1,8 @@
-
-# Snippet for .bashrc subfiles in ~/.bashrc.d
+#########################################
+#       Snippet for jenkins slave       #
+#########################################
+# loads .bashrc subfiles in ~/.bashrc.d
+#
 # See: https://sanctum.geek.nz/arabesque/shell-config-subfiles/
 # Sentry GUID to make this snippet idempotent: 5f721ebb69494adf8f3e4d41f1ac9230
 if [ -d $HOME/.bashrc.d ]; then
