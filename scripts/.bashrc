@@ -14,3 +14,4 @@ if [ -d $HOME/.bashrc.d ]; then
     done
     unset file
 fi
+
