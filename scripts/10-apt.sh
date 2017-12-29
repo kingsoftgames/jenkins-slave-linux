@@ -4,27 +4,27 @@ sudo apt-get update
 
 # Dependencies by UE4 for building on linux
 # See: https://intranet.rog2.org/docs/unreal-engine/build/build-game-linux
-DEPS=" \
-    build-essential \
-    clang-3.8 \
-    mono-xbuild \
-    mono-devel \
-    mono-dmcs \
-    mono-mcs \
-    mono-reference-assemblies-4.0 \
-    libmono-microsoft-build-tasks-v4.0-4.0-cil \
-    libmono-system-data-datasetextensions4.0-cil \
-    libmono-system-web-extensions4.0-cil \
-    libmono-system-management4.0-cil \
-    libmono-system-xml-linq4.0-cil \
-    dos2unix \
+DEPS="
+    build-essential
+    clang-3.8
+    mono-xbuild
+    mono-devel
+    mono-dmcs
+    mono-mcs
+    mono-reference-assemblies-4.0
+    libmono-microsoft-build-tasks-v4.0-4.0-cil
+    libmono-system-data-datasetextensions4.0-cil
+    libmono-system-web-extensions4.0-cil
+    libmono-system-management4.0-cil
+    libmono-system-xml-linq4.0-cil
+    dos2unix
     xdg-user-dirs
-    libfreetype6-dev \
-    libgtk-3-dev \
-    libnss3-dev \
-    libgconf2-dev \
-    libxss-dev \
-    libasound2-dev \
+    libfreetype6-dev
+    libgtk-3-dev
+    libnss3-dev
+    libgconf2-dev
+    libxss-dev
+    libasound2-dev
     "
 
 # Apache Ant is required by UE4 for packaging Android apk. See:
@@ -35,18 +35,23 @@ DEPS+=" ant "
 # Packages required to build third-party libraries
 # Example: https://github.com/google/protobuf/blob/master/src/README.md
 DEPS+="
-    autoconf \
-    automake \
-    libtool \
-    check \
+    autoconf
+    automake
+    libtool
+    check
     "
 
 # Utility packages
 DEPS+="
-    curl \
-    unzip \
-    htop \
-    ifstat \
+    apt-show-versions
+    gdb
+    curl
+    unzip
+    unrar
+    htop
+    ifstat
+    tree
+    jq
     "
 
 for DEP in $DEPS; do
