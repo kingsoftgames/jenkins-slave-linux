@@ -41,3 +41,7 @@ After running the pipeline, be a good linux citizen and remove jenkins slave use
 ```
 sudo gpasswd -d [username] sudo
 ```
+
+## Additional Notes
+
+After running the pipeline, you may need to **Disconnect / Relaunch** jenkins slave agent to pickup new environment variables set in `$HOME/.bashrc`.
