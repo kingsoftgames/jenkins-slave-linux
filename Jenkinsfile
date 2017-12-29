@@ -11,7 +11,7 @@ pipeline {
             description: 'Specify the label of jenkins slave to run.')
     }
     stages {
-        stage('Print Environment') {
+        stage('Setup Environment') {
             agent {
                 label "${params.JENKINS_SLAVE_LABEL}"
             }
