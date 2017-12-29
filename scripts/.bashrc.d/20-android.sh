@@ -9,5 +9,3 @@ export NDKROOT=$HOME/android/ndk
 
 # apt install ant
 export ANT_HOME=/usr/share/ant
-
-# JAVA_HOME is set by oracle-java8-installer apt package
