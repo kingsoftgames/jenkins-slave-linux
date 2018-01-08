@@ -7,7 +7,7 @@ pipeline {
     }
     parameters {
         string(name: 'JENKINS_SLAVE_LABEL',
-            defaultValue: 'none',
+            defaultValue: '',
             description: 'Specify the label of jenkins slave to run.')
     }
     stages {
