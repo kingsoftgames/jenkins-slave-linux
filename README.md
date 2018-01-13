@@ -2,6 +2,10 @@
 
 Initialize build environment of jenkins slaves (Linux), via a Jenkins pipeline job.
 
+## Linux Distro
+
+Ubuntu Server 16.04 LTS (xenial).
+
 ## Prerequisites
 
 **Important**
