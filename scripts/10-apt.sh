@@ -40,6 +40,9 @@ DEPS+="
     libtool
     check
     "
+# Lua build dependency
+# See: http://www.lua.org/manual/5.3/readme.html
+DEPS+=" libreadline-dev "
 
 # Utility packages
 DEPS+="
@@ -52,6 +55,7 @@ DEPS+="
     ifstat
     tree
     jq
+    crudini
     "
 
 for DEP in $DEPS; do
