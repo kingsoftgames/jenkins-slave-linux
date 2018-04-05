@@ -56,6 +56,7 @@ DEPS+="
     tree
     jq
     crudini
+    subversion
     "
 
 for DEP in $DEPS; do
