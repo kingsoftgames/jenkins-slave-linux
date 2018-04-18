@@ -57,6 +57,7 @@ DEPS+="
     jq
     crudini
     subversion
+    python3-pip
     "
 
 for DEP in $DEPS; do
