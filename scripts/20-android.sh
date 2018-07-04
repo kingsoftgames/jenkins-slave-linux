@@ -1,7 +1,7 @@
 #!/bin/bash -ex
 
-SDK_DOWNLOAD_URL=http://ftp.xsjme.com/share/software/android/android-sdk_r24.4.1-linux.tar.gz
-NDK_DOWNLOAD_URL=http://ftp.xsjme.com/share/software/android/android-ndk-r12b-linux-x86_64.zip
+SDK_DOWNLOAD_URL=http://ftp.intranet.rog2.org/share/software/android/android-sdk_r24.4.1-linux.tar.gz
+NDK_DOWNLOAD_URL=http://ftp.intranet.rog2.org/share/software/android/android-ndk-r12b-linux-x86_64.zip
 
 SDK_FOLDER=android-sdk-linux
 NDK_FOLDER=android-ndk-r12b
