@@ -6,7 +6,7 @@ sudo apt-get update
 # See: https://intranet.rog2.org/docs/unreal-engine/build/build-game-linux
 DEPS="
     build-essential
-    clang-3.8
+    clang-4.0
     mono-xbuild
     mono-devel
     mono-dmcs
